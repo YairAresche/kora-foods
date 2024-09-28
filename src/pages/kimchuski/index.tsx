@@ -1,8 +1,8 @@
-import KimchiProducts from "@/components/KimchiProducts/KimchiProducts";
-import Navbar from "@/components/NavBar/NavBar";
-import Head from "next/head";
+import Hero from "@/components/Hero/Hero";
 
-import Link from "next/link";
+import Navbar from "@/components/NavBar/NavBar";
+import Products from "@/components/Products/Products";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -17,33 +17,10 @@ export default function Home() {
 
       <div className="flex flex-col min-h-screen font-sans">
         <Navbar />
-
-        {/* Hero Section */}
-        <section
-          className="relative bg-cover bg-center flex flex-grow h-full"
-          // style={{ backgroundImage: `url('/images/hero/hero.jpg')` }}
-          style={{ backgroundImage: `url('/images/hero/hero2.png')` }}
-        >
-          <div className="container ml-4 md:ml-32 flex flex-col text-kimchuski-gray-50  justify-center">
-            <h2 className="md:text-3xl text-lg font-bold">
-              FERMENTED FOR HEALTH & FLAVOR
-            </h2>
-            <h1 className="md:text-8xl text-4xl font-semibold mt-4 text-[#231f20] text-shadow-custom max-w-[16ch]">
-              THE KIMCHI THAT STARTED IT ALL
-            </h1>
-
-            <Link
-              href="/find-us"
-              className="md:mt-8 mt-3 bg-kimchuski-green-500 leading-3 py-3 px-5 md:py-6 md:px-14 md:text-3xl rounded-full font-semibold w-fit text-white hover:bg-green-900 transition-colors duration-300"
-            >
-              Find Us Near You
-            </Link>
-          </div>
-        </section>
+        <Hero />
       </div>
 
-      {/* Product Section */}
-      <KimchiProducts />
+      <Products />
 
       {/* Additional Sections Here */}
     </div>

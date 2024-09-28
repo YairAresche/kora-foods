@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["PT Sans Narrow", "sans-serif"],
+        pacifico: ["Pacifico", "cursive"],
       },
       colors: {
         "kimchuski-gray": {

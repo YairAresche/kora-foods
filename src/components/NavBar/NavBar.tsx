@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-kimchuski-red-50 shadow-md text-xl">
+    <nav className="bg-kimchuski-gray-50 shadow-md text-xl py-3">
       <div className="container mx-auto flex justify-between md:justify-center items-center p-4">
         {/* Left Side (Products, About, FAQ) */}
         <div className="hidden md:flex space-x-12">
@@ -99,7 +99,7 @@ const Navbar = () => {
       <div
         className={`${
           menuOpen ? "block" : "hidden"
-        } md:hidden bg-kimchuski-red-50 transition-all duration-300 ease-in-out`}
+        } md:hidden bg-kimchuski-gray-50 transition-all duration-300 ease-in-out`}
       >
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
