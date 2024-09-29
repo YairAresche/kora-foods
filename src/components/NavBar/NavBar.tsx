@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-kimchuski-gray-50 shadow-md text-xl py-3">
+    <nav className="bg-kimchuski-gray-50 shadow-md text-xl py-3 absolute w-full z-10">
       <div className="container mx-auto flex justify-between md:justify-center items-center p-4">
         {/* Left Side (Products, About, FAQ) */}
         <div className="hidden md:flex space-x-12">
