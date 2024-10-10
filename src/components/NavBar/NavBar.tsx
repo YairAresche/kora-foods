@@ -12,11 +12,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-12">
           <DropdownMenu
             title="PRODUCTS"
-            items={[
-              { label: "Reserve Kimchi", href: "/products/product1" },
-              { label: "Everyday Kimchi", href: "/products/product2" },
-              { label: "Gochujang", href: "/products/product3" },
-            ]}
+            items={[{ label: "Reserve Kimchi", href: "/products/product1" }]}
           />
           <DropdownMenu
             title="ABOUT"
@@ -27,18 +23,15 @@ const Navbar = () => {
           />
           <DropdownMenu
             title="FAQ"
-            items={[
-              { label: "Kimchi 101", href: "/faq/shipping" },
-              { label: "Gochujang", href: "/faq/returns" },
-            ]}
+            items={[{ label: "Kimchi 101", href: "/faq/kimchi-101" }]}
           />
         </div>
 
         {/* Center (Logo) */}
         <div className="text-center md:mx-10">
-          <h1 className="text-5xl font-bold text-kimchuski-red-base">
+          <Link href="/" className="text-5xl font-bold text-kimchuski-red-base">
             KIMCHUSKI
-          </h1>
+          </Link>
         </div>
 
         {/* Right Side (Find Us, Recipes, Press) */}
@@ -104,11 +97,7 @@ const Navbar = () => {
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
             title="PRODUCTS"
-            items={[
-              { label: "Reserve Kimchi", href: "/products/product1" },
-              { label: "Everyday Kimchi", href: "/products/product2" },
-              { label: "Gochujang", href: "/products/product3" },
-            ]}
+            items={[{ label: "Reserve Kimchi", href: "/products/product1" }]}
           />
           <DropdownMenu
             title="ABOUT"
@@ -119,10 +108,7 @@ const Navbar = () => {
           />
           <DropdownMenu
             title="FAQ"
-            items={[
-              { label: "Kimchi 101", href: "/faq/shipping" },
-              { label: "Gochujang", href: "/faq/returns" },
-            ]}
+            items={[{ label: "Kimchi 101", href: "/faq/kimchi-101" }]}
           />
           <Link
             href="/find-us"

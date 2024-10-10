@@ -59,6 +59,11 @@ module.exports = {
       textShadow: {
         custom: "2px 2px 4px rgba(0, 0, 0, 0.8)",
       },
+      backgroundImage: {
+        "our-story": "url('/images/our-story/our-story.webp')",
+        "our-story-mobile": "url('/images/our-story/our-story-mobile.webp')",
+        "our-story-after": "url('/images/our-story/our-story-after.webp')",
+      },
     },
   },
   plugins: [],
