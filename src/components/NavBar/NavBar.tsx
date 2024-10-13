@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-kimchuski-gray-50 shadow-md text-xl py-3 absolute w-full z-10">
       <div className="container mx-auto flex justify-between md:justify-center items-center p-4">
         {/* Left Side (Products, About, FAQ) */}
-        <div className="hidden md:flex space-x-12">
+        <div className="hidden md:flex space-x-10">
           <DropdownMenu
             title="PRODUCTS"
             items={[{ label: "Reserve Kimchi", href: "/products/product1" }]}
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
         {/* Right Side (Find Us, Recipes, Press) */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-10">
           <Link
             href="/find-us"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"

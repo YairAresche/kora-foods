@@ -1,3 +1,5 @@
+import Faq from "@/components/Faq/Faq";
+import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/NavBar/NavBar";
 import React from "react";
 
@@ -6,9 +8,8 @@ const index = () => {
     <div>
       <>
         <Navbar />
-        <div className="pt-36">
-          <h1 className="text-3xl text-center">Kimchi 101</h1>
-        </div>
+        <Faq />
+        <Footer />
       </>
     </div>
   );
