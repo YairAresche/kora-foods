@@ -8,9 +8,9 @@ const jars = [1, 2, 3];
 
 const images = [
   "/images/reserve-kimchi/hakusai.WEBP",
-  "/images/reserve-kimchi/jar-hippie.PNG",
-  "/images/reserve-kimchi/jar-pink.PNG",
-  "/images/reserve-kimchi/sandwich.jpeg",
+  "/images/reserve-kimchi/jar-hippie.webp",
+  "/images/reserve-kimchi/jar-pink.webp",
+  "/images/reserve-kimchi/sandwich.webp",
 ];
 
 const ReserveKimchi = () => {
