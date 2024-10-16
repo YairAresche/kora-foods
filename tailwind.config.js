@@ -12,6 +12,21 @@ module.exports = {
         sans: ["PT Sans Narrow", "sans-serif"],
         pacifico: ["Pacifico", "cursive"],
       },
+      dropShadow: {
+        mobile: "6px 6px 12px #58af7f",
+        desktop: "14px 14px 22px #58af7f",
+        mobileOrange: "3px 4px 2px #ee4917",
+        desktopOrange: "6px 8px 6px #ee4917",
+      },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 40s linear infinite",
+      },
       colors: {
         "kimchuski-gray": {
           base: "#57585a",
@@ -54,6 +69,20 @@ module.exports = {
           800: "#1a4b34",
           900: "#163e2b",
           950: "#0c2219",
+        },
+        "kimchuski-orange": {
+          base: "#ee4917",
+          50: "#fef4ee",
+          100: "#fde6d7",
+          200: "#facaae",
+          300: "#f7a47a",
+          400: "#f27445",
+          500: "#ee4917",
+          600: "#e03716",
+          700: "#ba2714",
+          800: "#942118",
+          900: "#771e17",
+          950: "#400c0a",
         },
       },
       textShadow: {

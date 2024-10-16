@@ -12,7 +12,9 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-10">
           <DropdownMenu
             title="PRODUCTS"
-            items={[{ label: "Reserve Kimchi", href: "/products/product1" }]}
+            items={[
+              { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
+            ]}
           />
           <DropdownMenu
             title="ABOUT"
@@ -97,7 +99,9 @@ const Navbar = () => {
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
             title="PRODUCTS"
-            items={[{ label: "Reserve Kimchi", href: "/products/product1" }]}
+            items={[
+              { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
+            ]}
           />
           <DropdownMenu
             title="ABOUT"

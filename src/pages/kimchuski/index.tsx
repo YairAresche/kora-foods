@@ -2,6 +2,7 @@ import Description from "@/components/Description/Description";
 import FindUs from "@/components/FindUs";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
+import KeyWords from "@/components/KeyWords/KeyWords";
 
 import Navbar from "@/components/NavBar/NavBar";
 import News from "@/components/News/News";
@@ -30,6 +31,7 @@ export default function Home() {
       <OurStory />
       <Receipt />
       <News />
+      <KeyWords />
       <Description />
       <FindUs />
 

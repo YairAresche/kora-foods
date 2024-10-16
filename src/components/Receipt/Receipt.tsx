@@ -50,7 +50,7 @@ const Receipt = () => {
       </div>
       <Link
         href="/receipt"
-        className="bg-kimchuski-gray-50 text-kimchuski-gray-950 leading-3 py-4 px-6 md:py-2 md:px-8 md:text-2xl rounded-2xl font-semibold w-fit hover:bg-kimchuski-green-500 hover:text-kimchuski-gray-50 transition-colors duration-300"
+        className="bg-kimchuski-gray-50 text-kimchuski-gray-950 leading-3 py-4 px-6 md:py-2 md:px-8 md:text-2xl rounded-2xl font-semibold w-fit hover:bg-kimchuski-orange-base hover:text-kimchuski-gray-950 transition-colors duration-300"
       >
         VER RECETAS
       </Link>
