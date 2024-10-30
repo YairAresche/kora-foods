@@ -11,16 +11,16 @@ const Navbar = () => {
         {/* Left Side (Products, About, FAQ) */}
         <div className="hidden md:flex space-x-10">
           <DropdownMenu
-            title="PRODUCTS"
+            title="PRODUCTOS"
             items={[
               { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
             ]}
           />
           <DropdownMenu
-            title="ABOUT"
+            title="NOSOTROS"
             items={[
-              { label: "About Us", href: "/about/mission" },
-              { label: "Contact Us", href: "/about/team" },
+              { label: "Sobre nosotros", href: "/about/mission" },
+              { label: "Contactanos", href: "/about/team" },
             ]}
           />
           <DropdownMenu
@@ -42,24 +42,20 @@ const Navbar = () => {
             href="/find-us"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
-            FIND US
+            ENCONTRANOS
           </Link>
           <Link
             href="/recipes"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
-            RECIPES
+            RECETAS
           </Link>
           <DropdownMenu
-            title="PRESS"
+            title="INFO"
             items={[
               {
-                label: "Print",
+                label: "Videos",
                 href: "/press/press1",
-              },
-              {
-                label: "Media",
-                href: "/press/press2",
               },
             ]}
           />
@@ -98,16 +94,16 @@ const Navbar = () => {
       >
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
-            title="PRODUCTS"
+            title="PRODUCTOS"
             items={[
               { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
             ]}
           />
           <DropdownMenu
-            title="ABOUT"
+            title="NOSOTROS"
             items={[
-              { label: "About Us", href: "/about/mission" },
-              { label: "Contact Us", href: "/about/team" },
+              { label: "Sobre nosotros", href: "/about/mission" },
+              { label: "Contactanos", href: "/about/team" },
             ]}
           />
           <DropdownMenu
@@ -118,24 +114,20 @@ const Navbar = () => {
             href="/find-us"
             className="text-kimchuski-green-500 font-bold hover:text-green-800 "
           >
-            FIND US
+            ENCONTRANOS
           </Link>
           <Link
             href="/recipes"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
-            RECIPES
+            RECETAS
           </Link>
           <DropdownMenu
-            title="PRESS"
+            title="INFO"
             items={[
               {
-                label: "Print",
+                label: "Videos",
                 href: "/press/press1",
-              },
-              {
-                label: "Media",
-                href: "/press/press2",
               },
             ]}
           />
