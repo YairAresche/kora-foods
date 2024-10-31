@@ -9,62 +9,53 @@ const Navbar = () => {
     <nav className="bg-kimchuski-gray-50 shadow-md text-xl py-3 absolute w-full z-10">
       <div className="container mx-auto flex justify-between md:justify-center items-center p-4">
         {/* Left Side (Products, About, FAQ) */}
-        <div className="hidden md:flex space-x-12">
+        <div className="hidden md:flex space-x-10">
           <DropdownMenu
-            title="PRODUCTS"
+            title="PRODUCTOS"
             items={[
-              { label: "Reserve Kimchi", href: "/products/product1" },
-              { label: "Everyday Kimchi", href: "/products/product2" },
-              { label: "Gochujang", href: "/products/product3" },
+              { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
             ]}
           />
           <DropdownMenu
-            title="ABOUT"
+            title="NOSOTROS"
             items={[
-              { label: "About Us", href: "/about/mission" },
-              { label: "Contact Us", href: "/about/team" },
+              { label: "Sobre nosotros", href: "/about/mission" },
+              { label: "Contactanos", href: "/about/team" },
             ]}
           />
           <DropdownMenu
             title="FAQ"
-            items={[
-              { label: "Kimchi 101", href: "/faq/shipping" },
-              { label: "Gochujang", href: "/faq/returns" },
-            ]}
+            items={[{ label: "Kimchi 101", href: "/faq/kimchi-101" }]}
           />
         </div>
 
         {/* Center (Logo) */}
         <div className="text-center md:mx-10">
-          <h1 className="text-5xl font-bold text-kimchuski-red-base">
+          <Link href="/" className="text-5xl font-bold text-kimchuski-red-base">
             KIMCHUSKI
-          </h1>
+          </Link>
         </div>
 
         {/* Right Side (Find Us, Recipes, Press) */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex space-x-10">
           <Link
             href="/find-us"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
-            FIND US
+            ENCONTRANOS
           </Link>
           <Link
             href="/recipes"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
-            RECIPES
+            RECETAS
           </Link>
           <DropdownMenu
-            title="PRESS"
+            title="INFO"
             items={[
               {
-                label: "Print",
+                label: "Videos",
                 href: "/press/press1",
-              },
-              {
-                label: "Media",
-                href: "/press/press2",
               },
             ]}
           />
@@ -103,49 +94,40 @@ const Navbar = () => {
       >
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
-            title="PRODUCTS"
+            title="PRODUCTOS"
             items={[
-              { label: "Reserve Kimchi", href: "/products/product1" },
-              { label: "Everyday Kimchi", href: "/products/product2" },
-              { label: "Gochujang", href: "/products/product3" },
+              { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
             ]}
           />
           <DropdownMenu
-            title="ABOUT"
+            title="NOSOTROS"
             items={[
-              { label: "About Us", href: "/about/mission" },
-              { label: "Contact Us", href: "/about/team" },
+              { label: "Sobre nosotros", href: "/about/mission" },
+              { label: "Contactanos", href: "/about/team" },
             ]}
           />
           <DropdownMenu
             title="FAQ"
-            items={[
-              { label: "Kimchi 101", href: "/faq/shipping" },
-              { label: "Gochujang", href: "/faq/returns" },
-            ]}
+            items={[{ label: "Kimchi 101", href: "/faq/kimchi-101" }]}
           />
           <Link
             href="/find-us"
             className="text-kimchuski-green-500 font-bold hover:text-green-800 "
           >
-            FIND US
+            ENCONTRANOS
           </Link>
           <Link
             href="/recipes"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
-            RECIPES
+            RECETAS
           </Link>
           <DropdownMenu
-            title="PRESS"
+            title="INFO"
             items={[
               {
-                label: "Print",
+                label: "Videos",
                 href: "/press/press1",
-              },
-              {
-                label: "Media",
-                href: "/press/press2",
               },
             ]}
           />

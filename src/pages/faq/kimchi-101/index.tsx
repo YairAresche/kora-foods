@@ -1,0 +1,18 @@
+import Faq from "@/components/Faq/Faq";
+import Footer from "@/components/Footer/Footer";
+import Navbar from "@/components/NavBar/NavBar";
+import React from "react";
+
+const index = () => {
+  return (
+    <div>
+      <>
+        <Navbar />
+        <Faq />
+        <Footer />
+      </>
+    </div>
+  );
+};
+
+export default index;
