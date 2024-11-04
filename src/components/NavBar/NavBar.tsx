@@ -12,15 +12,13 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-10">
           <DropdownMenu
             title="PRODUCTOS"
-            items={[
-              { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
-            ]}
+            items={[{ label: "Kimchi", href: "/kimchuski/reserve-kimchi" }]}
           />
           <DropdownMenu
             title="NOSOTROS"
             items={[
-              { label: "Sobre nosotros", href: "/about/mission" },
-              { label: "Contactanos", href: "/about/team" },
+              { label: "Sobre nosotros", href: "/kimchuski/nosotros" },
+              { label: "Contactanos", href: "/kimchuski/contactanos" },
             ]}
           />
           <DropdownMenu
@@ -31,7 +29,10 @@ const Navbar = () => {
 
         {/* Center (Logo) */}
         <div className="text-center md:mx-10">
-          <Link href="/" className="text-5xl font-bold text-kimchuski-red-base">
+          <Link
+            href="/kimchuski"
+            className="text-5xl font-bold text-kimchuski-red-base"
+          >
             KIMCHUSKI
           </Link>
         </div>
@@ -95,15 +96,13 @@ const Navbar = () => {
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
             title="PRODUCTOS"
-            items={[
-              { label: "Reserve Kimchi", href: "/kimchuski/reserve-kimchi" },
-            ]}
+            items={[{ label: "Kimchi", href: "/kimchuski/reserve-kimchi" }]}
           />
           <DropdownMenu
             title="NOSOTROS"
             items={[
-              { label: "Sobre nosotros", href: "/about/mission" },
-              { label: "Contactanos", href: "/about/team" },
+              { label: "Sobre nosotros", href: "/kimchuski/nosotros" },
+              { label: "Contactanos", href: "/kimchuski/contactanos" },
             ]}
           />
           <DropdownMenu

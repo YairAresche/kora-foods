@@ -30,7 +30,7 @@ const ReserveKimchi = () => {
     <div>
       <Head>
         <title>Kimchuski - The Product That Started It All</title>
-        <meta name="description" content="Kimchuski - Reserve Kimchi" />
+        <meta name="description" content="Kimchuski - Kimchi" />
       </Head>
       <Navbar />
 
@@ -56,7 +56,7 @@ const ReserveKimchi = () => {
             >
               <Image
                 src="/images/reserve-kimchi/jar.png"
-                alt="Reserve Kimchi"
+                alt="Kimchi"
                 fill
                 className="object-contain brightness-125"
               />
