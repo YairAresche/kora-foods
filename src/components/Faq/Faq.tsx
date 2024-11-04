@@ -10,8 +10,6 @@ const Faq = () => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  console.log(activeIndex);
-
   return (
     <div className="min-h-screen pt-36 px-8">
       <h2 className="text-3xl text-center mb-6">KIMCHI 101</h2>

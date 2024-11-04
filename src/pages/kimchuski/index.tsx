@@ -36,8 +36,6 @@ export default function Home() {
       <FindUs />
 
       <Footer />
-
-      {/* Additional Sections Here */}
     </div>
   );
 }
