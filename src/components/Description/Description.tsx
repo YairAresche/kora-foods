@@ -6,7 +6,7 @@ const Description = () => {
       <div className="text-center mb-4 md:mb-8 text-kimchuski-gray-50">
         <h2 className="text-xl md:text-3xl mb-2 font-bold">KIMCHI</h2>
         <h4 className="italic font-pacifico text-xl md:text-2xl tracking-widest">
-          Estilo Auténtico y Delicioso
+          Producto auténtico, saludable y vegano.
         </h4>
       </div>
 

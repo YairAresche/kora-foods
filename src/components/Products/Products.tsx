@@ -139,7 +139,7 @@ export default function Products() {
         href={"/"}
         className="text-center font-pacifico capitalize font-normal text-xl"
       >
-        Toca un frasco para conocer más
+        Hace click para conocernos más.
         <Image
           src="/images/products/line.png"
           alt="line"
