@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-10">
           <DropdownMenu
             title="PRODUCTOS"
-            items={[{ label: "Kimchi", href: "/kimchuski/reserve-kimchi" }]}
+            items={[{ label: "Kimchi", href: "/kimchuski/kimchi" }]}
           />
           <DropdownMenu
             title="NOSOTROS"
@@ -20,10 +20,6 @@ const Navbar = () => {
               { label: "Sobre nosotros", href: "/kimchuski/nosotros" },
               { label: "Contactanos", href: "/kimchuski/contactanos" },
             ]}
-          />
-          <DropdownMenu
-            title="FAQ"
-            items={[{ label: "Kimchi 101", href: "/faq/kimchi-101" }]}
           />
         </div>
 
@@ -39,18 +35,6 @@ const Navbar = () => {
 
         {/* Right Side (Find Us, Recipes, Press) */}
         <div className="hidden md:flex space-x-10">
-          <Link
-            href="/find-us"
-            className="text-kimchuski-green-500 font-bold hover:text-green-800"
-          >
-            ENCONTRANOS
-          </Link>
-          <Link
-            href="/recipes"
-            className="text-kimchuski-green-500 font-bold hover:text-green-800"
-          >
-            RECETAS
-          </Link>
           <DropdownMenu
             title="INFO"
             items={[
@@ -58,8 +42,18 @@ const Navbar = () => {
                 label: "Videos",
                 href: "/press/press1",
               },
+              {
+                label: "Preguntas frecuentes",
+                href: "/kimchuski/preguntas-frecuentes",
+              },
             ]}
           />
+          <Link
+            href="/kimchuski/recetas"
+            className="text-kimchuski-green-500 font-bold hover:text-green-800"
+          >
+            RECETAS
+          </Link>
         </div>
 
         {/* Hamburger Menu Button for Small Screens */}
@@ -96,7 +90,7 @@ const Navbar = () => {
         <div className="flex flex-col items-center space-y-4 py-4">
           <DropdownMenu
             title="PRODUCTOS"
-            items={[{ label: "Kimchi", href: "/kimchuski/reserve-kimchi" }]}
+            items={[{ label: "Kimchi", href: "/kimchuski/kimchi" }]}
           />
           <DropdownMenu
             title="NOSOTROS"
@@ -105,18 +99,8 @@ const Navbar = () => {
               { label: "Contactanos", href: "/kimchuski/contactanos" },
             ]}
           />
-          <DropdownMenu
-            title="FAQ"
-            items={[{ label: "Kimchi 101", href: "/faq/kimchi-101" }]}
-          />
           <Link
-            href="/find-us"
-            className="text-kimchuski-green-500 font-bold hover:text-green-800 "
-          >
-            ENCONTRANOS
-          </Link>
-          <Link
-            href="/recipes"
+            href="/kimchuski/recetas"
             className="text-kimchuski-green-500 font-bold hover:text-green-800"
           >
             RECETAS
@@ -127,6 +111,10 @@ const Navbar = () => {
               {
                 label: "Videos",
                 href: "/press/press1",
+              },
+              {
+                label: "Preguntas frecuentes",
+                href: "/kimchuski/preguntas-frecuentes",
               },
             ]}
           />

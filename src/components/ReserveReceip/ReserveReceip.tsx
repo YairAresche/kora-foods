@@ -9,7 +9,7 @@ const ReserveReceip = () => {
     <div className="relative md:w-full p-10 text-center">
       {/* Title */}
       <h1 className="text-2xl md:text-4xl font-bold tracking-wider pb-4 md:pb-12">
-        RECIPES
+        ALGUNAS RECETAS
       </h1>
 
       {/* Mobile layout: Scrollable flex */}
@@ -57,7 +57,7 @@ const ReserveReceip = () => {
               width={400}
               height={300}
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 bg-kimchuski-gray-950 bg-opacity-50 text-kimchuski-gray-50 transition-opacity duration-500 group-hover:border-4 gap-10">
+            <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 bg-kimchuski-gray-950 bg-opacity-50 text-kimchuski-gray-50 transition-opacity duration-500 gap-10">
               <div>
                 <h2 className="text-xl font-bold">{item.title}</h2>
                 <p className="px-4 py-2 text-center mt-2">{item.description}</p>

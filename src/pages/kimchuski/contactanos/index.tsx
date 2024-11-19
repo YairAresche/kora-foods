@@ -1,7 +1,15 @@
-import React from "react";
+import ContactForm from "@/components/ContactForm/ContactForm";
+import Footer from "@/components/Footer/Footer";
+import Navbar from "@/components/NavBar/NavBar";
 
-const index = () => {
-  return <div>index</div>;
+const Contact = () => {
+  return (
+    <div>
+      <Navbar />
+      <ContactForm />
+      <Footer />
+    </div>
+  );
 };
 
-export default index;
+export default Contact;
