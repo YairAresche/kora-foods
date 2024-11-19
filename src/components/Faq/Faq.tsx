@@ -12,7 +12,7 @@ const Faq = () => {
 
   return (
     <div className="min-h-screen pt-36 px-8">
-      <h2 className="text-3xl text-center mb-6">KIMCHI 101</h2>
+      <h2 className="text-3xl text-center mb-6">KIMCHI</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full">
         {/* FAQ section */}
         <div>
