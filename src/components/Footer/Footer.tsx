@@ -51,11 +51,8 @@ const Footer = () => {
           >
             Nuestra Historia
           </Link>
-          <Link
-            href="/kimchi-101"
-            className="block hover:text-kimchuski-gray-50"
-          >
-            Kimchi 101
+          <Link href="/kimchi" className="block hover:text-kimchuski-gray-50">
+            Kimchi
           </Link>
         </div>
 
@@ -63,11 +60,11 @@ const Footer = () => {
           <Link href="/" className="font-bold hover:text-kimchuski-gray-50">
             MÁS
           </Link>
-          <Link href="/contact" className="block hover:text-kimchuski-gray-50">
+          <Link
+            href="/kimchuski/contactanos"
+            className="block hover:text-kimchuski-gray-50"
+          >
             Contacto
-          </Link>
-          <Link href="/locator" className="block hover:text-kimchuski-gray-50">
-            Localizador
           </Link>
         </div>
       </div>
