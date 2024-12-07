@@ -1,7 +1,7 @@
 export const FOODITEMS = [
   {
     id: 1,
-    src: "/images/reserve-kimchi/recipes1.webp",
+    src: "/images/kimchi/recipes1.webp",
     alt: "Dish 1",
     title: "Mandu de Tofu BBQ Ahumado y Kimchi",
     description:
@@ -10,7 +10,7 @@ export const FOODITEMS = [
   },
   {
     id: 2,
-    src: "/images/reserve-kimchi/recipes2.jpg",
+    src: "/images/kimchi/recipes2.jpg",
     alt: "Dish 2",
     title: "Ramen Picante de Kimchi con Tofu",
     description:
@@ -19,7 +19,7 @@ export const FOODITEMS = [
   },
   {
     id: 3,
-    src: "/images/reserve-kimchi/recipes3.jpg",
+    src: "/images/kimchi/recipes3.jpg",
     alt: "Dish 3",
     title: "Wraps de Ensalada de Brócoli y MUU",
     description:

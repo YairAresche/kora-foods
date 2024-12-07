@@ -11,9 +11,9 @@ export const FAQS = [
   },
   {
     question:
-      "¿Por qué los trozos de kimchi de su producto Reserve Napa Cabbage son tan largos?",
+      "¿Por qué los trozos de kimchi de su producto Napa Cabbage son tan largos?",
     answer:
-      "Nuestra intención con nuestro Reserve Napa Cabbage Kimchi es ofrecer la versión más auténtica y artesanal del kimchi, y estos cortes largos permiten menos magulladuras en el vegetal y el desarrollo del sabor fermentado más completo posible. Cuando los cortes son largos, las hojas también pueden plegarse cuidadosamente antes de ser colocadas en capas dentro del frasco de fermentación, lo que resulta en una fermentación más profunda y uniforme. Recomendamos usar tijeras de cocina en la mesa para cortar las tiras largas de kimchi a tu gusto.",
+      "Nuestra intención con nuestro Napa Cabbage Kimchi es ofrecer la versión más auténtica y artesanal del kimchi, y estos cortes largos permiten menos magulladuras en el vegetal y el desarrollo del sabor fermentado más completo posible. Cuando los cortes son largos, las hojas también pueden plegarse cuidadosamente antes de ser colocadas en capas dentro del frasco de fermentación, lo que resulta en una fermentación más profunda y uniforme. Recomendamos usar tijeras de cocina en la mesa para cortar las tiras largas de kimchi a tu gusto.",
   },
   {
     question: "¿Por qué el kimchi tiene un sabor tan ácido?",
