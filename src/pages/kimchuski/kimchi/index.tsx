@@ -9,10 +9,10 @@ import React, { useEffect, useState } from "react";
 const jars = [1, 2, 3];
 
 const images = [
-  "/images/reserve-kimchi/hakusai.WEBP",
-  "/images/reserve-kimchi/jar-hippie.webp",
-  "/images/reserve-kimchi/jar-pink.webp",
-  "/images/reserve-kimchi/sandwich.webp",
+  "/images/kimchi/hakusai.WEBP",
+  "/images/kimchi/jar-hippie.webp",
+  "/images/kimchi/jar-pink.webp",
+  "/images/kimchi/sandwich.webp",
 ];
 
 const ReserveKimchi = () => {
@@ -36,10 +36,7 @@ const ReserveKimchi = () => {
 
       {/* main */}
       <div className="pt-36 pb-12 px-8 flex justify-around md:justify-center md:gap-10">
-        <div className="text-center">
-          <h1 className="text-kimchuski-green-500 text-3xl md:text-7xl font-bold tracking-widest">
-            RESERVE
-          </h1>
+        <div className="text-center content-center">
           <h1 className="text-kimchuski-green-500 text-4xl md:text-8xl font-bold leading-6 md:leading-[0.8] tracking-widest md:tracking-wider">
             KIMCHI
           </h1>
@@ -55,7 +52,7 @@ const ReserveKimchi = () => {
               className="relative h-[75px] w-[45px] md:w-[130px] md:h-[250px] self-center filter drop-shadow-mobileOrange md:drop-shadow-desktopOrange"
             >
               <Image
-                src="/images/reserve-kimchi/jar.png"
+                src="/images/kimchi/jar.png"
                 alt="Kimchi"
                 fill
                 className="object-contain brightness-125"

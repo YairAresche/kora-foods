@@ -21,13 +21,13 @@ const Description = () => {
               <td className="flex md:table-cell items-center mb-4 md:mb-2">
                 <Image
                   src="/images/description/jar.png"
-                  alt="Kimchi Reserve"
+                  alt="Kimchi"
                   width={75}
                   height={75}
                   className="mx-auto"
                 />
                 <p className="font-bold font-pacifico tracking-wider ">
-                  Reserve
+                  Kimchi
                 </p>
                 <h3 className="md:hidden font-bold ms-2 text-xl">KIMCHI</h3>
               </td>

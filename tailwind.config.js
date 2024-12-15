@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         sans: ["PT Sans Narrow", "sans-serif"],
         pacifico: ["Pacifico", "cursive"],
+        quicksand: ["Quicksand", "sans-serif"],
       },
       dropShadow: {
         mobile: "6px 6px 12px #58af7f",
