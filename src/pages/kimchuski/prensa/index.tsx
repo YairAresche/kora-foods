@@ -13,12 +13,12 @@ const YOUTUBE_VIDEOS = [
   },
   {
     id: 2,
-    title: "Cobertura de evento",
+    title: "Compartimos un momento con Fede Bal",
     url: "XbMMHe2XpTQ",
   },
   {
     id: 3,
-    title: "Opinión de expertos",
+    title: "Cazuela de Kimchi en Cocineros Argentinos!",
     url: "99y2wWD1x80",
   },
 ];
