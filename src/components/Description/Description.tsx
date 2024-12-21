@@ -26,10 +26,7 @@ const Description = () => {
                   height={75}
                   className="mx-auto"
                 />
-                <p className="font-bold font-pacifico tracking-wider ">
-                  Kimchi
-                </p>
-                <h3 className="md:hidden font-bold ms-2 text-xl">KIMCHI</h3>
+                <p className="font-bold font-pacifico tracking-wider">Kimchi</p>
               </td>
             </tr>
           </thead>
