@@ -10,9 +10,9 @@ const Receipt = () => {
           <Image
             width={150}
             height={150}
-            src="/images/receipts/salad.webp"
+            src="/images/receipts/spicy-cucumber-salad.jpg"
             alt="ensalada de pepino picante"
-            className="rounded-full aspect-square mb-3"
+            className="rounded-full aspect-square mb-3 object-cover"
           />{" "}
           <h3 className="font-bold tracking-widest">
             ENSALADA DE PEPINO
@@ -37,7 +37,7 @@ const Receipt = () => {
           <Image
             width={150}
             height={150}
-            src="/images/receipts/tofu.webp"
+            src="/images/receipts/gochujang-crispy-tofu.webp"
             alt="tofu crujiente con gochujang"
             className="rounded-full aspect-square mb-3"
           />{" "}
@@ -49,7 +49,7 @@ const Receipt = () => {
         </div>
       </div>
       <Link
-        href="/receipt"
+        href="/kimchuski/recetas"
         className="bg-kimchuski-gray-50 text-kimchuski-gray-950 leading-3 py-4 px-6 md:py-2 md:px-8 md:text-2xl rounded-2xl font-semibold w-fit hover:bg-kimchuski-orange-base hover:text-kimchuski-gray-950 transition-colors duration-300"
       >
         VER RECETAS
