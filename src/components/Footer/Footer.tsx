@@ -46,7 +46,7 @@ const Footer = () => {
             APRENDE
           </Link>
           <Link
-            href="/our-story"
+            href="/kimchuski/nosotros"
             className="block hover:text-kimchuski-gray-50"
           >
             Nuestra Historia

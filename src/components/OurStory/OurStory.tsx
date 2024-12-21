@@ -24,7 +24,7 @@ const OurStory = () => {
             amor.
           </p>
           <Link
-            href="/our-story"
+            href="/kimchuski/nosotros"
             className="bg-kimchuski-gray-950 text-kimchuski-gray-50 leading-3 py-4 px-6 md:py-2 md:px-8 md:text-2xl rounded-full font-semibold w-fit hover:bg-gray-50 hover:text-kimchuski-green-500 transition-colors duration-300"
           >
             NUESTRA HISTORIA

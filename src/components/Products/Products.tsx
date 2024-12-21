@@ -136,7 +136,7 @@ export default function Products() {
         </div>
       </div>
       <Link
-        href={"/"}
+        href={"/kimchuski/nosotros"}
         className="text-center font-pacifico capitalize font-normal text-xl"
       >
         Hace click para conocernos más.
