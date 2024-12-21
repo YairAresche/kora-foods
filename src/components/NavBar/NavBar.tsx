@@ -36,11 +36,11 @@ const Navbar = () => {
         {/* Right Side (Find Us, Recipes, Press) */}
         <div className="hidden md:flex space-x-10">
           <DropdownMenu
-            title="INFO"
+            title="INFORMACION"
             items={[
               {
-                label: "Videos",
-                href: "/press/press1",
+                label: "Prensa",
+                href: "/kimchuski/prensa",
               },
               {
                 label: "Preguntas frecuentes",
@@ -106,11 +106,11 @@ const Navbar = () => {
             RECETAS
           </Link>
           <DropdownMenu
-            title="INFO"
+            title="INFORMACION"
             items={[
               {
-                label: "Videos",
-                href: "/press/press1",
+                label: "Prensa",
+                href: "/kimchuski/prensa",
               },
               {
                 label: "Preguntas frecuentes",

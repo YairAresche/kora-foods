@@ -22,10 +22,10 @@ const RecipesPage = () => {
     setCurrentPage(newPage);
   };
 
-  const cardAnimation = {
-    // hidden: { opacity: 0, y: 20 },
-    // visible: { opacity: 1, y: 0 },
-  };
+  // const cardAnimation = {
+  //   hidden: { opacity: 0, y: 20 },
+  //   visible: { opacity: 1, y: 0 },
+  // };
 
   return (
     <div>
@@ -41,7 +41,7 @@ const RecipesPage = () => {
               initial="hidden"
               animate="visible"
               exit="hidden"
-              variants={cardAnimation}
+              // variants={cardAnimation}
               transition={{ duration: 0.5 }}
               className="relative min-w-[100%] snap-center"
             >
@@ -72,7 +72,7 @@ const RecipesPage = () => {
                 initial="hidden"
                 animate="visible"
                 exit="hidden"
-                variants={cardAnimation}
+                // variants={cardAnimation}
                 transition={{ duration: 0.5, delay: item.id * 0.1 }}
                 className="group relative w-full cursor-pointer"
               >
