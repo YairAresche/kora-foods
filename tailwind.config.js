@@ -13,6 +13,10 @@ module.exports = {
         pacifico: ["Pacifico", "cursive"],
         quicksand: ["Quicksand", "sans-serif"],
       },
+      screens: {
+        "3xl": "1920px",
+        "4xl": "2560px",
+      },
       dropShadow: {
         mobile: "6px 6px 12px #58af7f",
         desktop: "14px 14px 22px #58af7f",
@@ -90,9 +94,9 @@ module.exports = {
         custom: "2px 2px 4px rgba(0, 0, 0, 0.8)",
       },
       backgroundImage: {
-        "our-story": "url('/images/our-story/our-story.webp')",
-        "our-story-mobile": "url('/images/our-story/our-story-mobile.webp')",
-        "our-story-after": "url('/images/our-story/our-story-after.webp')",
+        // "our-story-nona": "url('/images/our-story/our-story-nona.jpeg')",
+        "our-story-nona": "url('/images/our-story/ongi.jpeg')",
+        "our-story-green": "url('/images/our-story/our-story-green.webp')",
         news: "url('/images/news/news.webp')",
         description: "url('/images/description/description.svg')",
         footer: "url('/images/footer/footer.jpg')",

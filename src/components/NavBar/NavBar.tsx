@@ -46,6 +46,10 @@ const Navbar = () => {
                 label: "Preguntas frecuentes",
                 href: "/kimchuski/preguntas-frecuentes",
               },
+              {
+                label: "Beneficios para la salud",
+                href: "/kimchuski/beneficios",
+              },
             ]}
           />
           <Link
@@ -115,6 +119,10 @@ const Navbar = () => {
               {
                 label: "Preguntas frecuentes",
                 href: "/kimchuski/preguntas-frecuentes",
+              },
+              {
+                label: "Beneficios para la salud",
+                href: "/kimchuski/beneficios",
               },
             ]}
           />

@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Kimchuski - The Product That Started It All</title>
+        <title>Kimchuski - kimchi autentico coreano en Argentina</title>
         <meta
           name="description"
           content="Kimchuski - Quality fermented products"
