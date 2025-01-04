@@ -8,32 +8,17 @@ const AboutUs = () => {
       <div className="flex justify-center items-center order-2 md:order-1">
         <div className="xl:xl:space-y-4 px-8 md:px-0">
           <h2 className="xl:text-3xl text-2xl text-center mb-1 xl:mb-8">
-            NUESTRA MISIÓN
+            MISIÓN DE KIMCHUSKI
           </h2>
           <p>
-            Comenzamos en KIMCHUSKI con la misión de compartir un kimchi
-            delicioso, auténtico y artesanal, elaborado en pequeños lotes con
-            los mejores ingredientes naturales. Como amante de la comida y el
-            vino, la fundadora Lauryn Chun se inspiró en la belleza de la
-            tradición artesanal de Corea de preparar kimchi, un alimento
-            apreciado que merece estar entre las tradiciones de alimentos
-            fermentados como el vino, el queso y la cerveza.
-          </p>
-          <p>
-            Nuestro primer kimchi fue lanzado en 2009 con el original
-            &quot;House,&quot; basado en una receta familiar muy querida del
-            restaurante de la familia de su madre, KIMCHUSKI House (Jang Mo
-            Jip), fundado en 1989 en Garden Grove, California. ¡Sigue siendo
-            nuestro más vendido!
-          </p>
-          <p>
-            En 2012, Lauryn publicó{" "}
-            <span className="text-kimchuski-green-400">
-              The Kimchi Cookbook: 60 Modern and Traditional Ways to Make and
-              Cook Kimchi
-            </span>{" "}
-            para compartir la historia de la tradición de hacer kimchi con
-            recetas modernas y mostrar su versatilidad a más cocineros caseros.
+            Nuestra misión en Kimchuski es llevar a cada rincón del país un
+            kimchi auténtico, saludable y de calidad superior. Nos enfocamos en
+            escalar un producto natural, sin conservantes, que respete las
+            tradiciones coreanas mientras se adapta a las necesidades del
+            mercado local. Queremos ser el referente en alimentos fermentados,
+            promoviendo hábitos alimenticios beneficiosos a través de un
+            producto vegano, libre de gluten y certificado, que fomente el
+            bienestar y el disfrute culinario en cada mesa.
           </p>
         </div>
       </div>
@@ -67,24 +52,17 @@ const AboutUs = () => {
       <div className="flex justify-center items-center order-4 md:order-4">
         <div className="xl:space-y-4 px-8 md:px-0">
           <h2 className="xl:text-3xl text-2xl text-center mb-1 xl:mb-8">
-            NUESTROS SABORES
+            EL SABOR DE KIMCHUSKI
           </h2>
-
           <p>
-            El Gochujang de KIMCHUSKI se lanzó en 2014, la pasta y salsa de
-            chile fermentado más popular que captura los sabores auténticos de
-            la despensa coreana. El perfil de sabor único del gochujang proviene
-            de la fermentación, que resalta el sabor umami y el calor moderado
-            de la especia del chile. A muchos les encanta el nuestro porque
-            contiene ingredientes puros, sin MSG ni jarabe de maíz.
-          </p>
-          <p>
-            Ninguna despensa está completa sin Gochugaru, hojuelas de chile
-            coreano que aportan una profundidad de sabores terrosos y cálidos
-            con un nivel de picante medio, y pueden usarse en platos cotidianos,
-            no solo para hacer kimchi. Como símbolo de calidad, las hojuelas de
-            gochugaru de KIMCHUSKI no contienen semillas, lo que permite que
-            brille el sabor afrutado completo de la pulpa del chile.
+            Kimchuski ofrece un sabor auténtico y equilibrado que combina la
+            tradición coreana con la frescura de ingredientes seleccionados. Su
+            perfil único mezcla un toque picante, notas umami y la acidez
+            característica de la fermentación, creando una experiencia
+            gastronómica vibrante y saludable. Perfecto para quienes buscan
+            intensidad y frescura en cada bocado, nuestro kimchi se adapta a
+            diversas preparaciones, desde platos tradicionales hasta fusiones
+            modernas. Es el equilibrio perfecto entre sabor y bienestar.
           </p>
         </div>
       </div>

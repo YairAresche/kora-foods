@@ -5,19 +5,18 @@ import React from "react";
 const OurStory = () => {
   return (
     <>
-      <section className="text-gray-900 p-4 md:px-14 flex flex-col md:space-y-0 h-screen text-[14px] md:text-xl text-center !leading-tight font-semibold relative bg-our-story-mobile md:bg-our-story bg-cover bg-center">
-        <div className="md:w-1/2 h-full flex flex-col items-center justify-evenly">
-          {/* <h1 className="italic text-8xl font-light font-pacifico">Hey!</h1> */}
-          <h2 className="text-5xl">
+      <section className="text-gray-900 flex flex-col md:flex-row md:space-y-0 h-screen w-full text-[14px] md:text-xl text-center !leading-tight font-semibold relative bg-cover bg-center">
+        <div className="w-full md:w-[55%] h-full bg-our-story-green md:bg-our-story bg-cover bg-center flex flex-col items-center justify-evenly text-center p-8">
+          <h2 className="text-4xl 2xl:text-5xl 3xl:text-6xl 3xl:max-w-[26ch]">
             AGRADECIMIENTO A TODAS LAS ABUELAS Y MADRES!
           </h2>
-          <h3 className="text-2xl italic">
+          <h3 className="text-2xl xl:text-3xl 2xl:text-4xl 3xl:text-5xl italic lg:max-w-[30ch] xl:max-w-[34ch]">
             El KIMCHI no es una técnica de fermentación sino más bien una
             receta.
           </h3>
-          <p className="font-medium text-xl">
+          <p className="font-medium text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl">
             Esa es la diferencia entre el Kimchi y el resto de los fermentos, su
-            bellisima historia. La receta tradicional de cada techo, la receta
+            bellísima historia. La receta tradicional de cada techo, la receta
             del barrio esperando a quienes volvían de la milicia y el hambre.
             Fermentaban en verano para consumirlo en los helados inviernos, el
             kimchi tenía que estar entre todos los seres queridos. El Kimchi es
@@ -25,15 +24,18 @@ const OurStory = () => {
           </p>
           <Link
             href="/kimchuski/nosotros"
-            className="bg-kimchuski-gray-950 text-kimchuski-gray-50 leading-3 py-4 px-6 md:py-2 md:px-8 md:text-2xl rounded-full font-semibold w-fit hover:bg-gray-50 hover:text-kimchuski-green-500 transition-colors duration-300"
+            className="bg-kimchuski-gray-950 text-kimchuski-gray-50 leading-3 py-4 px-6 md:py-2 md:px-8 md:text-2xl 2xl:text-3xl rounded-full font-semibold w-fit hover:bg-gray-50 hover:text-kimchuski-green-500 transition-colors duration-300"
           >
             NUESTRA HISTORIA
           </Link>
         </div>
+
+        <div className="hidden md:block w-full md:w-[45%] h-full bg-none bg-cover bg-center md:bg-our-story-nona"></div>
       </section>
       <div className="md:hidden">
         <Image
-          src="/images/our-story/our-story-after.webp"
+          // src="/images/our-story/our-story-after.jpeg"
+          src="/images/our-story/ongi.jpeg"
           alt="Our Story"
           width={500}
           height={500}

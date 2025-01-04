@@ -30,20 +30,26 @@ const Footer = () => {
       </div>
       <div className="flex justify-between gap-x-10">
         <div>
-          <Link href="/" className="font-bold hover:text-kimchuski-gray-50">
-            COMPRAR
+          <Link
+            href="/kimchuski"
+            className="font-bold hover:text-kimchuski-gray-50"
+          >
+            INICIO
           </Link>
-          <Link href="/reserve" className="block hover:text-kimchuski-gray-50">
-            Reservar
-          </Link>
-          <Link href="/house" className="block hover:text-kimchuski-gray-50">
-            House
+          <Link
+            href="/kimchuski/preguntas-frecuentes"
+            className="block hover:text-kimchuski-gray-50"
+          >
+            FAQ
           </Link>
         </div>
 
         <div>
-          <Link href="/" className="font-bold hover:text-kimchuski-gray-50">
-            APRENDE
+          <Link
+            href="/kimchuski/kimchi"
+            className="font-bold hover:text-kimchuski-gray-50"
+          >
+            KIMCHI
           </Link>
           <Link
             href="/kimchuski/nosotros"
@@ -51,14 +57,20 @@ const Footer = () => {
           >
             Nuestra Historia
           </Link>
-          <Link href="/kimchi" className="block hover:text-kimchuski-gray-50">
-            Kimchi
+          <Link
+            href="/kimchuski/beneficios"
+            className="block hover:text-kimchuski-gray-50"
+          >
+            Beneficios
           </Link>
         </div>
 
         <div>
-          <Link href="/" className="font-bold hover:text-kimchuski-gray-50">
-            MÁS
+          <Link
+            href="/kimchuski/prensa"
+            className="font-bold hover:text-kimchuski-gray-50"
+          >
+            PRENSA
           </Link>
           <Link
             href="/kimchuski/contactanos"

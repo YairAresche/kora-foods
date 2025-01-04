@@ -15,10 +15,10 @@ const Hero = () => {
         </h1>
 
         <Link
-          href="/"
+          href="/kimchuski/beneficios"
           className="mt-8 bg-kimchuski-green-500 leading-3 py-4 xl:py-4 px-10 md:py-3 md:px-12 xl:px-16 md:text-2xl xl:text-3xl rounded-full font-semibold w-fit text-kimchuski-gray-50 hover:bg-green-900 transition-colors duration-300"
         >
-          Encontranos cerca tuyo
+          Le servimos a tu microbiota intestinal
         </Link>
       </div>
     </section>
