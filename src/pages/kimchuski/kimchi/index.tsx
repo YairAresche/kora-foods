@@ -29,7 +29,7 @@ const ReserveKimchi = () => {
   return (
     <div>
       <Head>
-        <title>Kimchuski - The Product That Started It All</title>
+        <title>Kimchuski - kimchi autentico coreano en Argentina</title>
         <meta name="description" content="Kimchuski - Kimchi" />
       </Head>
       <Navbar />
@@ -67,21 +67,28 @@ const ReserveKimchi = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 md:h-screen text-kimchuski-gray-50">
         {/* Cuadro 1 */}
         <div className="flex flex-col items-center justify-center p-4 text-center bg-kimchuski-green-400 h-[50vh] md:h-auto">
-          <h2 className="text-2xl max-w-[20ch] mb-2">
-            RESERVA DE HAKUSAI TRADICIONAL
-          </h2>
+          <h2 className="text-2xl max-w-[20ch] mb-2">NUESTRO KIMCHI</h2>
           <p>
-            Nuestro kimchi emblemático, con sus inconfundibles tiras largas de
-            col napa, se considera un kimchi estilo Geotjori y tiene una larga
-            significación histórica en Corea. A menudo se elabora durante el
-            Kimjang (la elaboración de kimchi de la cosecha de otoño) y se come
-            fresco para celebrarlo. Nuestro aderezo es una receta tradicional y
-            jugosa, que utiliza salsa de pescado y caldo de huesos de res,
-            combinado con tiras largas de col napa y un proceso de fermentación
-            lenta que resulta en una profundidad de sabores ricos. Consejo
-            profesional: Cortar las tiras en trozos del tamaño de un bocado en
-            la mesa al comer, libera el mejor sabor y textura.
+            En Kimchuski ofrecemos un kimchi vegano que captura la esencia del
+            kimchi tradicional coreano, elaborado artesanalmente en la provincia
+            de Mendoza. Nuestro compromiso es garantizar un producto de
+            excelencia mediante la selección de materia prima de la más alta
+            calidad.
           </p>
+          <p>
+            Elaborado a base de hakusai como ingrediente principal, combinado
+            con ají gochugaru —el auténtico ají coreano—, nuestro kimchi
+            incorpora una variedad de vegetales que se integran en un proceso
+            cuidado y artesanal.
+          </p>
+          {/* <p>
+            En Kimchuski no hacemos concesiones en cuanto a calidad. Trabajamos
+            constantemente para perfeccionar y escalar nuestro producto con
+            profesionalismo, manteniendo siempre el equilibrio entre sabor,
+            salud y tradición. Nuestra misión es llevar este alimento nutritivo
+            y delicioso a cada rincón de Argentina, brindando una experiencia
+            auténtica y memorable.
+          </p> */}
         </div>
         {/* Cuadro 2 */}
         <div className="flex items-center justify-center">
@@ -110,9 +117,10 @@ const ReserveKimchi = () => {
         {/* Cuadro 4 */}
         <div className="flex flex-col items-center justify-center p-4 text-center bg-kimchuski-orange-400 h-[50vh] md:h-auto order-1 md:order-2">
           <h2 className="text-2xl max-w-[26ch] mb-2">
-            RESERVA DE HAKUSAI CORTADO A LA MESA - VEGANA
+            {/* Producto 100% libre de conservantes. KIMCHI VEGANO. */}
+            PRODUCTO DE CALIDAD
           </h2>
-          <p>
+          {/* <p>
             Nuestro kimchi Cortado a la Mesa es un homenaje al kimchi Mak, que
             se refiere a un corte cuadrado de aproximadamente dos pulgadas de
             tamaño. El corte permite una fermentación más rápida, ya que la
@@ -120,7 +128,19 @@ const ReserveKimchi = () => {
             fermentación. La receta basada en plantas utiliza una salsa de
             kimchi fresca y brillante, que resulta en notas ácidas, saladas y
             casi cítricas.
-          </p>
+          </p> */}
+          <div className="">
+            <p>
+              En Kimchuski no hacemos concesiones en cuanto a calidad.
+              Trabajamos constantemente para perfeccionar y escalar nuestro
+              producto con profesionalismo, manteniendo siempre el equilibrio
+              entre sabor, salud y tradición. Nuestra misión es llevar este
+              alimento nutritivo y delicioso a cada rincón de Argentina,
+              brindando una experiencia auténtica y memorable.
+            </p>
+            <br />
+            <p className="italic">Producto 100% libre de conservantes.</p>
+          </div>
         </div>
       </div>
       {/* cuadricula */}

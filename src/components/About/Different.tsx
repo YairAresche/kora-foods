@@ -11,19 +11,34 @@ const Different = () => {
             ¿QUÉ HACE QUE NUESTRO KIMCHI SEA DIFERENTE?
           </h2>
           <p>
-            Mantenemos la tradición de hacer kimchi utilizando un proceso
-            auténticamente artesanal: desde la selección de los mejores chiles y
-            hojuelas, hasta cortar a mano tiras de col napa y cubos de rábanos
-            daikon. Mezclamos en pequeños lotes y empacamos a mano en frascos de
-            vidrio. A diferencia del corte con máquinas, que trocean las tiras y
-            mezclan en grandes recipientes lo que puede magullar los vegetales
-            delicados, nuestro proceso artesanal distintivo, desde el principio
-            hasta el final, corta los vegetales en tiras largas y trozos,
-            asegurando una fermentación más equilibrada y sabores más profundos
-            que se desarrollan lentamente. Esto es lo que los coreanos llaman
-            “son-mat”, que significa “sabor de las manos”, y describe el cariño
-            que surge al hacer comida con las manos.
+            Kimchuski se destaca por ser el primer kimchi auténtico coreano en
+            Argentina certificado por Sifega, garantizando calidad, seguridad y
+            libre circulación. A diferencia de otros, nuestro kimchi es 100%
+            natural, sin conservantes ni aditivos, y está elaborado con recetas
+            tradicionales que respetan el proceso de fermentación original.
           </p>
+          <p>
+            Además, es vegano, libre de gluten y tiene 6 meses de vida útil
+            gracias a su cuidadosa preparación excelente materia prima en
+            Guaymallen, Mendoza. Cada frasco no solo ofrece un sabor
+            incomparable, sino también beneficios probióticos que apoyan la
+            salud intestinal, haciendo de Kimchuski un producto único en el
+            mercado.
+          </p>
+          {/* <p>
+            Kimchuski propone la elaboración de un producto sano y rico dentro
+            del mercado alimenticio nacional.
+          </p>
+          <p>
+            Un kimchi vegano con una receta ancestral coreana, desde la
+            selección de una materia prima excelente hasta la distribución en
+            frío para una buena fermentación.
+          </p>
+          <p>
+            Somos la primer compañía en toda latinoamerica en lograr un kimchi
+            aprobado legalmente para su distribución respetando la filosofía
+            coreana por dicho alimento.
+          </p> */}
         </div>
       </div>
 
@@ -55,14 +70,13 @@ const Different = () => {
       {/* Cuadrado 4: Título y texto (abajo derecha en pantallas grandes) */}
       <div className="flex justify-center items-center order-4 md:order-4 bg-kimchuski-orange-400 ">
         <div className="space-y-4 text-white px-4 md:px-8 py-8">
-          <h2 className="text-3xl text-center mb-8">¿QUÉ HAY EN UN NOMBRE?</h2>
+          <h2 className="text-3xl text-center mb-8">
+            ¿CUAL ES EL AJI QUE USAMOS?
+          </h2>
           <p>
-            La tradición culinaria coreana tiene una relación importante con la
-            suegra. Cuando una novia se casaba y se unía a la familia de su
-            esposo, era costumbre que aprendiera las recetas de kimchi de su
-            nueva familia. Como una de las habilidades culinarias más respetadas
-            en cualquier hogar coreano, tradicionalmente, era habitual que la
-            suegra enseñara la receta de kimchi a la novia.
+            Respetamos los ingredientes autóctonos del kimchi usando el aji
+            gochugaru como principal ingrediente para el picor. Un picante dulce
+            que se caracteriza por su color y textura.
           </p>
         </div>
       </div>

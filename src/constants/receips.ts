@@ -159,7 +159,7 @@ export const RECEIPTITEMS = [
           "1 rueda de 500g de queso Moses Sleeper de Jasper Hill Farms, frío",
           "1 lámina de 8.5 oz de hojaldre congelado",
           "1/2 cebolla amarilla mediana, cortada en rodajas finas",
-          "1/4 de frasco (4 oz) de Kimchi HOUSE Reserve, picado en trozos pequeños",
+          "1/4 de frasco (4 oz) de Kimchi, picado en trozos pequeños",
           "2 cebollines, cortados en rodajas",
           "½ cucharadita de salsa de pescado",
           "1.5 cucharadas de miel",
