@@ -94,8 +94,7 @@ module.exports = {
         custom: "2px 2px 4px rgba(0, 0, 0, 0.8)",
       },
       backgroundImage: {
-        // "our-story-nona": "url('/images/our-story/our-story-nona.jpeg')",
-        "our-story-nona": "url('/images/our-story/ongi.jpeg')",
+        "our-story-ongi": "url('/images/our-story/ongi.jpeg')",
         "our-story-green": "url('/images/our-story/our-story-green.webp')",
         news: "url('/images/news/news.webp')",
         description: "url('/images/description/description.svg')",

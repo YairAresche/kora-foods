@@ -11,34 +11,47 @@ const ContactForm = () => {
   });
   const [status, setStatus] = useState("");
   const [isError, setIsError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
+    setStatus("");
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setIsLoading(true);
 
-    emailjs
-      .sendForm(
+    try {
+      await emailjs.sendForm(
         "service_ll7jvr5",
         "template_etmpzji",
         e.currentTarget,
         "IglaE8jp6WJhgtnpV"
-      )
-      .then(
-        () => {
-          setStatus("Mensaje enviado con éxito.");
-          setIsError(false);
-        },
-        () => {
-          setStatus("Hubo un error al enviar el mensaje.");
-          setIsError(true);
-        }
       );
+      setTimeout(() => {
+        setIsLoading(false);
+        setStatus("Mensaje enviado con éxito.");
+        setIsError(false);
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          company: "",
+          message: "",
+        });
+      }, 1000);
+    } catch (error) {
+      setTimeout(() => {
+        setIsLoading(false);
+        setStatus("Hubo un error al enviar el mensaje.");
+        setIsError(true);
+        throw error;
+      }, 1000);
+    }
   };
 
   return (
@@ -56,6 +69,7 @@ const ContactForm = () => {
         onSubmit={handleSubmit}
         className="max-w-lg mx-auto space-y-6 p-6 border rounded shadow-md"
       >
+        {/* Campos del formulario */}
         <div>
           <label htmlFor="firstName" className="block font-medium mb-1">
             Nombre
@@ -125,12 +139,19 @@ const ContactForm = () => {
             className="w-full border p-2 rounded"
           />
         </div>
+        {/* Botón de enviar */}
         <button
           type="submit"
-          className="w-full bg-kimchuski-green-500 text-white py-2 rounded hover:bg-kimchuski-green-600 transition"
+          className="w-full bg-kimchuski-green-500 text-white py-2 rounded hover:bg-kimchuski-green-600 transition flex justify-center items-center"
+          disabled={isLoading}
         >
-          Enviar
+          {isLoading ? (
+            <div className="w-5 h-5 border-2 border-white border-t-transparent border-solid rounded-full animate-spin"></div>
+          ) : (
+            "Enviar"
+          )}
         </button>
+        {/* Mensaje de estado */}
         {status && (
           <p
             className={`mt-4 ${

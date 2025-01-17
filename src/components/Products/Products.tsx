@@ -14,7 +14,6 @@ export default function Products() {
               src="/images/arrow.webp"
               alt="Arrow"
               className="rotate-0 w-[34px] md:w-[50px] xl:w-[60px] 2xl:w-[70px]"
-              layout="intrinsic"
               width={50}
               height={50}
             />
@@ -24,7 +23,6 @@ export default function Products() {
               className="absolute left-2 md:left-auto md:right-[200px] 3xl:right-[300px] bottom-10 xl:w-[35px] 2xl:w-[50px]"
               width={20}
               height={20}
-              layout="intrinsic"
             />
             <Image
               src="/images/products/img4.svg"
@@ -50,7 +48,6 @@ export default function Products() {
               src="/images/arrow.webp"
               alt="Arrow"
               className="scale-x-[-1] rotate-[-15deg] md:-rotate-180 md:order-1 scale-75 md:scale-100 md:scale-x-[-1] w-[34px] md:w-[50px] xl:w-[60px] 2xl:w-[70px]"
-              layout="intrinsic"
               width={50}
               height={50}
             />
@@ -82,7 +79,6 @@ export default function Products() {
               src="/images/arrow.webp"
               alt="Arrow"
               className="rotate-180 scale-x-[-1] md:rotate-0 md:scale-1 md:order-2 w-[34px] md:w-[50px] xl:w-[60px] 2xl:w-[70px] "
-              layout="intrinsic"
               width={50}
               height={50}
             />
@@ -117,7 +113,6 @@ export default function Products() {
               src="/images/arrow.webp"
               alt="Arrow"
               className="scale-x-1 rotate-180 md:rotate-180 w-[34px] md:w-[50px] xl:w-[60px] 2xl:w-[70px]"
-              layout="intrinsic"
               width={50}
               height={50}
             />

@@ -6,7 +6,7 @@ const Hero = () => {
     <section
       className={`relative bg-cover bg-center flex flex-grow h-full bg-[url('/images/hero/hero-mobile.png')] md:bg-[url('/images/hero/hero.png')]`}
     >
-      <div className="container flex flex-col justify-center mx-auto w-5/6  md:ml-32">
+      <div className="container flex flex-col justify-center mx-auto w-5/6 md:ml-32">
         <h2 className="md:text-3xl font-bold tracking-wider text-xl text-kimchuski-gray-50">
           PRODUCTO CUIDADO, SALUDABLE Y FERMENTADO.
         </h2>
