@@ -6,7 +6,7 @@ const OurStory = () => {
   return (
     <>
       <section className="text-gray-900 flex flex-col md:flex-row md:space-y-0 h-screen w-full text-[14px] md:text-xl text-center !leading-tight font-semibold relative bg-cover bg-center">
-        <div className="w-full md:w-[55%] h-full bg-our-story-green md:bg-our-story bg-cover bg-center flex flex-col items-center justify-evenly text-center p-8">
+        <div className="w-full md:w-[55%] h-full bg-our-story-green bg-cover bg-center flex flex-col items-center justify-evenly text-center p-8">
           <h2 className="text-4xl 2xl:text-5xl 3xl:text-6xl 3xl:max-w-[26ch]">
             AGRADECIMIENTO A TODAS LAS ABUELAS Y MADRES!
           </h2>
@@ -30,11 +30,10 @@ const OurStory = () => {
           </Link>
         </div>
 
-        <div className="hidden md:block w-full md:w-[45%] h-full bg-none bg-cover bg-center md:bg-our-story-nona"></div>
+        <div className="hidden md:block w-full md:w-[45%] h-full bg-none bg-cover bg-center md:bg-our-story-ongi"></div>
       </section>
       <div className="md:hidden">
         <Image
-          // src="/images/our-story/our-story-after.jpeg"
           src="/images/our-story/ongi.jpeg"
           alt="Our Story"
           width={500}
